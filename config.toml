@@ -1,0 +1,26 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Personal Developer Site"
+
+[params]
+  author = "Daniel Vincent"
+  itemsPerPage = 10
+  avatar = "https://avatars2.githubusercontent.com/u/23483002?s=460&v=4"
+
+  #Background settings
+	enableColorBG= true
+
+	#Post-displaying Settings
+	enableTags = true
+	enableCategories = true
+
+  customCSS = ["/css/style.css", "https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css"]
+
+  contentType = "posts"
+  
+  #Enable Twitter Emoji
+	twitterEmoji=true
+
+[social]
+  email = "dvincent25@gmail.com"
+  github = "tyndi25"
